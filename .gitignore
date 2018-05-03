@@ -1,0 +1,11 @@
+.lftp/rl_history
+.oh-my-zsh/
+.irssi
+.bip
+.lftp/*history*
+.lftp/transfer_log
+.vim/backup
+.vim/bundle
+.vim/ftplugin
+.vim/.netrwhist
+.vim/spell

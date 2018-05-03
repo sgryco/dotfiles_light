@@ -1,0 +1,8 @@
+*~
+.DS_Store
+*.class
+*.swp
+*.pyo
+*.pyc
+DerivedData
+*.aux.xml

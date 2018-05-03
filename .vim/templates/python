@@ -1,0 +1,13 @@
+#!/usr/bin/python
+# coding=utf-8
+
+# Base Python File (%PLACE_FILENAME%)
+# Created: %PLACE_CREATETIME%
+# Version: 1.0
+#
+# This Python script was developped by François-Xavier Thomas.
+# You are free to copy, adapt or modify it.
+#
+# (ɔ) François-Xavier Thomas <fx.thomas@gmail.com>
+
+%PLACE_CURSOR%

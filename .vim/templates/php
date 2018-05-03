@@ -1,0 +1,15 @@
+<?php
+/**
+ * Base PHP File (%PLACE_FILENAME%)
+ * Created: %PLACE_CREATETIME%
+ *
+ * This PHP file is part of a website developped by François-Xavier Thomas.
+ * You are free to copy, adapt or modify it.
+ * 
+ * @author François-Xavier Thomas <fx.thomas@gmail.com>
+ * @version 1.0
+ */
+
+%PLACE_CURSOR%
+
+?>
