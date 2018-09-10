@@ -20,10 +20,3 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/cuda/lib64
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.local/usr/lib
 export LC_CTYPE="en_IE.UTF-8"
 export LC_ALL="en_IE.UTF-8"
-
-[ -z "$ZSH_VERSION" ] && [ -f /usr/bin/zsh ] && {
-#        echo "Type Y to run zsh: "
-#        read line
-#        [ "$line" = Y ] && exec $HOME/.local/bin/zsh -l
-         exec /usr/bin/zsh -l
-}
