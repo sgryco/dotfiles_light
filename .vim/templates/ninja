@@ -3,10 +3,10 @@
 # Ninja Build Script (%PLACE_FILENAME%)
 # Created: %PLACE_CREATETIME%
 #
-# This Ninja build script was developped by François-Xavier Thomas.
+# This Ninja build script was developped by Author.
 # You are free to copy, adapt or modify it.
 # 
-# (ɔ) François-Xavier Thomas <fx.thomas@gmail.com>
+# (ɔ) Author <email@gmail.com>
 
 # Compiler Flags
 cflags = -Wall

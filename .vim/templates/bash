@@ -3,9 +3,9 @@
 # Base Script File (%PLACE_FILENAME%)
 # Created: %PLACE_CREATETIME%
 # Version: 1.0
-# Author: François-Xavier Thomas <fx.thomas@gmail.com>
+# Author: Author <email@gmail.com>
 #
-# This Bash script was developped by François-Xavier Thomas.
+# This Bash script was developped by Author.
 # You are free to copy, adapt or modify it.
 
 %PLACE_CURSOR%

@@ -31,7 +31,7 @@ function copyconf {
 function linkconf {
   IN="$BASEDIR/$1"
   OUT="$2/${3:-$1}"
-  if [ -e "$OUT" ]; then
+  if [ -f "$OUT" ]; then
     echo ">>> $OUT exists. Overwrite? (y/N) "
     read _ok
   else
@@ -39,7 +39,7 @@ function linkconf {
     _ok='y'
   fi
   if [[ $_ok == 'y' ]]; then
-    rm -rvi "$OUT"
+    rm -rv "$OUT"
     ln -s "$IN" "$OUT" >/dev/null 2>&1
   fi
 }
@@ -57,6 +57,9 @@ linkconf .bashrc ~
 copyconf .gitconfig ~
 linkconf .gitbase ~
 linkconf .gitignore_global ~
+linkconf .tmux.conf ~
+linkconf .vim ~
+linkconf .vimrc ~
 linkconf .zshrc ~
 linkconf .aliases ~
 linkconf .profile ~
